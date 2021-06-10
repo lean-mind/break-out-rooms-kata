@@ -4,6 +4,8 @@ When we run workshops via Zoom using break out rooms for several rounds, sometim
 
 As a code kata, write a function that takes the list of attendees, the size of the rooms (number of people per room) and the round number. The function will organize the rooms minimizing the amount of repetition per round. The result of the function is a list of lists containing rooms with participants. The function will be deterministic, given the same round and the same participants and room size, the result will be the same. This will serve as a history. 
 
+This is could be an interesting problem to solve with TDD using property-based testing ;-)
+
 Example:
 
 Participants: 
